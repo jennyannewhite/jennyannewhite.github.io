@@ -1,0 +1,68 @@
+body {
+    background-image: url("http://4.bp.blogspot.com/-HAKiuTJPIkk/Tvf3EtU1jFI/AAAAAAAACXQ/ng4D5z_Dvl0/s1600/1950s+pink+clouds.jpg");
+    padding-left: 20px;
+    overflow: auto;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(3, 3, 3);
+    border: black 4px;
+    margin-left: 90px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(3, 3, 3);
+    border: black 4px;
+}
+
+p {
+    text-align: center;
+    font-weight: bold;
+}
+
+#action-1,
+#action-2 {
+    margin-left: 10px;
+}
+
+#restart {
+    margin-left: 10px;
+}
+
+.action-text {
+    text-align: left;
+    color: white;
+    size: 18px;
+}
+
+.character-box {
+    width: 160px;
+    height: 60%;
+    border: solid green 2px;
+    margin-left: 10px;
+    background-color: white;
+}
+
+.enemy-box {
+    width: 160px;
+    height: 60%;
+    border: solid black 2px;
+    margin-left: 10px;
+    background-color: #ff4d4d;
+    color: white;
+}
+
+.defender-box {
+    width: 160px;
+    height: 60%;
+    border: solid green 2px;
+    margin-left: 10px;
+    background-color: black;
+    color: white;
+}
+
+.character:hover {}
